@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class Node_at_a_given_index_in_linked_list {
-    Node node;
+    Node head;
     public class Node{
     	int data;
         Node next;
