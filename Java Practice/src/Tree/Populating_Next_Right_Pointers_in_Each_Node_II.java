@@ -22,7 +22,7 @@ public class Populating_Next_Right_Pointers_in_Each_Node_II {
     }
   }
 	
-	 public  Node connect(Node root) {
+	 public Node connect(Node root) {
 	        Node head=root;
 	        if(root==null){
 	            return null;
