@@ -26,10 +26,12 @@ public class Find_the_sum_of_Uncommon_Alphabet {
 			}
 		}
 		int ans=0;
-		while(sum>0) {
+		
+		while(sum>0 ) {
 			ans+=sum%10;
-			sum=sum/=10;
+			sum=sum/10;	
 		}
+		
 		return ans;
 	}
 }
